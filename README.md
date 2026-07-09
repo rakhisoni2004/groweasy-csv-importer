@@ -6,13 +6,13 @@ Built as part of the **GrowEasy Software Developer Assignment**.
 
 ---
 
-# 🚀 Live Demo
+#  Live Demo
 
 https://groweasy-csv-importer-lake.vercel.app
 
 ---
 
-# 📂 GitHub Repository
+#  GitHub Repository
 
 https://github.com/rakhisoni2004/groweasy-csv-importer
 
