@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #0e1420;
+  --ink-raised: #141b29;
+  --ink-line: #232c3d;
+  --paper: #f7f5f1;
+  --slate: #8a93a6;
+  --amber: #f5a623;
+  --amber-dim: #7a5715;
+  --teal: #2dd4bf;
+  --teal-dim: #1a4f48;
+  --clay: #e2725b;
+  --clay-dim: #522e26;
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-ink-raised: var(--ink-raised);
+  --color-ink-line: var(--ink-line);
+  --color-paper: var(--paper);
+  --color-slate: var(--slate);
+  --color-amber: var(--amber);
+  --color-amber-dim: var(--amber-dim);
+  --color-teal: var(--teal);
+  --color-teal-dim: var(--teal-dim);
+  --color-clay: var(--clay);
+  --color-clay-dim: var(--clay-dim);
+  --font-display: -apple-system, "Segoe UI Semibold", ui-sans-serif, system-ui, sans-serif;
+  --font-body: -apple-system, "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+  --font-data: ui-monospace, "SFMono-Regular", "Cascadia Code", Menlo, Consolas, monospace;
+}
+
+body {
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--amber);
+  color: var(--ink);
+}
+
+/* Slim, quiet scrollbars for the data tables */
+.scroll-thin::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+.scroll-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: var(--ink-line);
+  border-radius: 4px;
+}
+.scroll-thin::-webkit-scrollbar-thumb:hover {
+  background: var(--slate);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

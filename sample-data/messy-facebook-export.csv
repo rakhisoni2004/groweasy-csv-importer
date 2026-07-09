@@ -1,0 +1,6 @@
+Full Name,Email Address,Phone,City,Interested Project,Lead Status,Comments,Submitted On
+John Doe,john.doe@example.com,+91 9876543210,Mumbai,Meridian Tower,Follow up needed,Client is asking to reschedule demo,2026-05-13 14:20:48
+Sarah Johnson,sarah.johnson@example.com; sarah.j.alt@gmail.com,9876543211,Bangalore,Eden Park,Did not pick up,"Person was busy, will try again next week",2026-05-13 14:25:30
+Rajesh Patel,,9876543212 / 9123456780,Delhi,,Not interested,Not interested in our services,2026-05-13 14:30:15
+Priya Singh,priya.singh@example.com,+91-9876543213,Pune,Varah Swamy,Sale Closed,"Deal closed, onboarding in progress",2026-05-13 14:35:22
+No Contact Person,,,Chennai,,Unknown,Row with neither email nor phone - should be skipped,2026-05-13 14:40:00
